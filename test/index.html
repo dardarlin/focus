@@ -4,21 +4,27 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-	<div class="box1" focus-level=1 >
-		<div focus-group='firstGroup'><!-- data-focus-next='{"RIGHT":"#item2"}' -->
+	<div class="box1" data-focus-level=1 >
+		<div data-focus-group='firstGroup'><!-- data-focus-next='{"RIGHT":"#item2"}' -->
 			<div focusable id='item1' ><img src="images/1.jpg"></img></div>
 			<div focusable id='item2'><img src="images/2.jpg"></img></div>
 			<div focusable id='item3'><img src="images/3.jpg"></img></div>
 			<div focusable id='item4'><img src="images/4.jpg"></img></div>
 			<div focusable id='item5'><img src="images/5.jpg"></img></div>
 			<div focusable id='item6'><img src="images/6.jpg"></img></div>
+			<div focusable id='item20'><img src="images/4.jpg"></img></div>
+			<div focusable id='item21'><img src="images/5.jpg"></img></div>
+			<div focusable id='item22'><img src="images/6.jpg"></img></div>
+			<div focusable id='item23'><img src="images/4.jpg"></img></div>
+			<div focusable id='item24'><img src="images/5.jpg"></img></div>
+			<div focusable id='item25'><img src="images/6.jpg"></img></div>
 		</div>
-		<div focus-group='secondGroup'><!-- data-focus-next='{"RIGHT":"#item2"}' -->
+		<div data-focus-group='secondGroup'><!-- data-focus-next='{"RIGHT":"#item2"}' -->
 			<div focusable id='item7' ><img src="images/1.jpg"></img></div>
 			<div focusable id='item8'><img src="images/2.jpg"></img></div>
 			<div focusable id='item9'><img src="images/3.jpg"></img></div>
 		</div>
-		<div focus-group='thirdGroup'><!-- data-focus-next='{"RIGHT":"#item2"}' -->
+		<div data-focus-group='thirdGroup'><!-- data-focus-next='{"RIGHT":"#item2"}' -->
 			<div focusable id='item10' ><img src="images/1.jpg"></img></div>
 			<div focusable id='item11'><img src="images/2.jpg"></img></div>
 			<div focusable id='item12'><img src="images/3.jpg"></img></div>
@@ -28,8 +34,8 @@
 		</div>
 		
 	</div>
-	<div class="box2" focus-level=2 >
-		<div class="group1" focus-group='group1' >
+	<div class="box2" data-focus-level=2 >
+		<div class="group1" data-focus-group='group1' >
 			<div focusable id='item16'><img src="images/1.jpg"></img></div>
 			<div focusable id='item17'><img src="images/2.jpg"></img></div>
 		</div>
@@ -37,15 +43,15 @@
 			<div focusable id='item18'><img src="images/3.jpg"></img></div>
 		</div>
 	</div>
-	<!-- <div class="box2">
-		<div class="group1" focus-group="group3">
+	<div class="box2">
+		<div class="group1" data-focus-group="group3">
 			<div focusable id='item10'><img src="images/4.jpg"></img></div>
 			<div focusable id='item11'><img src="images/5.jpg"></img></div>
 		</div>
-		<div class="group2" focus-group="group4">
+		<div class="group2" data-focus-group="group4">
 			<div focusable id='item12'><img src="images/6.jpg"></img></div>
 		</div>
-	</div> -->
+	</div>
 	<script type="text/javascript" src="../doc/jquery.js"></script>
 	<script type="text/javascript" src="../lib/focus.js"></script>
 </body>
