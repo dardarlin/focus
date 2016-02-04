@@ -25,7 +25,7 @@ an engine to manage focus auto on  tv
 * 3.when the focus is exists,this engine will use focus cache as default.for example: your last focus element is focused with pressing directive 'left',and then you press diretive 'right' on current element,it will just focus on last focus element instead of searching on current group.
 
 
-* 4. this engine is base on nearby principle,it will search in current group to find the nearest element by the direcction,if there isn't the nearest element by the direction,then will search on other group in current level.
+* 4.this engine is base on nearby principle,it will search in current group to find the nearest element by the direcction,if there isn't the nearest element by the direction,then will search on other group in current level.
 
 ***
 #Author
