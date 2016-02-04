@@ -12,12 +12,6 @@
 			<div focusable id='item4'><img src="images/4.jpg"></img></div>
 			<div focusable id='item5'><img src="images/5.jpg"></img></div>
 			<div focusable id='item6'><img src="images/6.jpg"></img></div>
-			<div focusable id='item20'><img src="images/4.jpg"></img></div>
-			<div focusable id='item21'><img src="images/5.jpg"></img></div>
-			<div focusable id='item22'><img src="images/6.jpg"></img></div>
-			<div focusable id='item23'><img src="images/4.jpg"></img></div>
-			<div focusable id='item24'><img src="images/5.jpg"></img></div>
-			<div focusable id='item25'><img src="images/6.jpg"></img></div>
 		</div>
 		<div data-focus-group='secondGroup'>
 			<div focusable id='item7' ><img src="images/1.jpg"></img></div>
@@ -41,7 +35,23 @@
 	<script type="text/javascript" src="../lib/focus.js"></script>
 	<script type="text/javascript">
 		function init(){
+			//set default focus element,the param is css selector
 			$.FocusManage.setFocus('#item1');
+			
+			//if you dont' want use focus cache,just close it.but it's open by default 
+			$.FocusManage.enbleCache(false);
+
+			//you can change the focus cache time,it's 2000ms by default
+			$.FocusManage.setCacheTime(5000);
+			
+			//if your dom tree is change,please do:
+			$.FocusManage.flushTree();
+
+			//if you don't want the element to be focused,just call disableFocus,it will rebuild the FocusTree.
+			$.FocusManage.disableFocus(selector); //$.FocusManage.disableFocus('.class1');
+
+			//if your element can't be focused ,just call enableFocus,it will rebuild the FocusTree.
+			$.FocusManage.enableFocus(selector);
 		}
 		$(document).ready(init);
 		
