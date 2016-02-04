@@ -16,13 +16,16 @@ an engine to manage focus auto on  tv
 ***
 # principle
 
-* 1.to use this engine,your html is devide by level group and element,the different level's element can't be focus only when you setFocus to this level's element
+* 1.to use this engine,your html is devide by level group and element,the different level's element can be focus only when you set focus to this level's element
 
 
 * 2.when you don't want to manage focus by default in current element,you can sign your element with attribute like 'data-focus-next='{"left":"#item1"}''
 
 
 * 3.when the focus is exists,this engine will use focus cache as default.for example: your last focus element is focused with pressing directive 'left',and then you press diretive 'right' on current element,it will just focus on last focus element instead of searching on current group.
+
+
+* 4. this engine is base on nearby principle,it will search in current group to find the nearest element by the direcction,if there isn't the nearest element by the direction,then will search on other group in current level.
 
 ***
 #Author
