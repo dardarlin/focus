@@ -3,9 +3,9 @@ an engine to manage focus auto on  tv
 ***
 
 # Usage
-1. 1.you should include the [jquery](http://jquery.com/)
-2. 2.include the file 'focus.min.js' or 'focus.js' in your html
-3. 3.use these attribute in your html element
+1. you should include the [jquery](http://jquery.com/)
+2. include the file 'focus.min.js' or 'focus.js' in your html
+3. use these attribute in your html element
 
 <pre><code>   data-focus-level="your level name"
    data-focus-group="your group name"
