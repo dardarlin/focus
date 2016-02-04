@@ -5,14 +5,14 @@ an engine to manage focus auto on  tv
 # Usage
 1. you should include the [jquery](http://jquery.com/)
 2. include the file 'focus.min.js' or 'focus.js' in your html
-3. use these attribute in your html element
+3. to see the engine interface,please see test/index.html  
+4. use these attribute in your html element
 
 <pre><code>   data-focus-level="your level name"
    data-focus-group="your group name"
    data-focus-next="define your next focus element"
 </code></pre>
 
-4. to see the engine interface,please see test/index.html    
 ***
 # principle
 
