@@ -11,7 +11,8 @@ an engine to manage focus auto on  tv
    data-focus-group="your group name"
    data-focus-next="define your next focus element"
 </code></pre>
-      
+
+4.to see the engine interface,please see test/index.html    
 ***
 # principle
 
